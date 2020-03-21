@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thankyouActivity">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:text="Your Payment is Successfull...!!!"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="379dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="15dp"
+        android:text="Thank you for your payment. An automated payment receipt will be sent to your registered email. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="110dp"
+        android:backgroundTint="#37C43D"
+        android:text="Go to Home"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back_1"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

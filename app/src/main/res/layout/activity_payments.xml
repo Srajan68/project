@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentsActivity">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="31dp"
+        android:background="#C70000"
+        android:backgroundTint="#BE0707"
+        android:foregroundTint="#990000"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="249dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="74dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rs : 3578 /-"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="135dp"
+        android:text="Total Amount"
+        android:textColor="#CF0000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="128dp"
+        android:text="Choose Payment Option"
+        android:textColor="#181616"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        app:srcCompat="@drawable/paytm" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="122dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        app:srcCompat="@drawable/googlepay" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="122dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:srcCompat="@drawable/cod" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="153dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="122dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton13"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+        app:srcCompat="@drawable/paypal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
